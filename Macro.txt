@@ -1,7 +1,7 @@
+//work in progress
+// get a input and go to that slice and select it for a 3d crop.
 title=getTitle();
 selectWindow(title);
 setSlice(50);
 makeRectangle(1000, 1000,1000, 1000);
-radx=100
-radz = 10
-run("3D Crop", "Radius XY (pix) =" + radx + " Radius Z (pix)  =" + radz );
+
